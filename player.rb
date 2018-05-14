@@ -32,4 +32,8 @@ class Player
     @cards = []
   end
 
+  def increase_stack(amount)
+    @stack += amount
+  end
+
 end
